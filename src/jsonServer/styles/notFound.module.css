@@ -1,0 +1,32 @@
+body {
+  background: #00c3ee;
+}
+
+.notFoundContent {
+  display: flex;
+  margin: 10px auto;
+  background-color: #2196f354;
+  border-radius: 10px;
+  height: 90vh;
+  justify-content: flex-start;
+  width: 100vh;
+  overflow: auto;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.notFound {
+  text-align: center;
+}
+
+.links {
+  background: #213438;
+  color: white;
+  margin: 5px auto;
+  width: 220px;
+  border-radius: 9px;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  text-decoration: none;
+}

@@ -1,0 +1,49 @@
+.taskContent {
+  display: flex;
+  margin: 10px auto;
+  background-color: #2196f354;
+  border-radius: 10px;
+  height: 90vh;
+  justify-content: flex-start;
+  width: 100vh;
+  overflow: auto;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.taskContainer {
+  margin: 10px auto;
+}
+
+.taskInput {
+  resize: none;
+  width: 90vh;
+  margin: 5px;
+  height: 65vh;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.taskControlPanel {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.bottonTask {
+  text-decoration: none;
+  text-align: center;
+  width: 20vh;
+  height: 14px;
+  background: #213438;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+  font-family: sans-serif;
+  border-style: hidden;
+  border-radius: 9px;
+}
